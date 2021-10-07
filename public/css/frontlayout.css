@@ -1,0 +1,374 @@
+
+    .breakpoint-off .classynav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    
+    }
+    
+    #preloader {
+    display: none !important;
+    }
+    .loader {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #1e1d1d82;
+    z-index: 100;
+    }
+    .overlay__inner {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    }
+    .overlay__content {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .spinner {
+    width: 120px;
+    height: 120px;
+    background: transparent;
+    border: 16px solid #f3f3f3;
+    border-radius: 50% !important;
+    border-top: 16px solid #BC873C;
+    display: inline-block;
+    animation: spin 1s infinite linear;
+    border-radius: 100%;
+    border-style: solid;
+    }
+    html,body,p,h1,h2,h3,h4,h5,h6,span,label,div{
+    font-family: poppins !important;
+    }
+    
+    #scrollUp {
+    background-color:  #BC873C !important;
+    
+    }
+    
+    
+    @media (min-width: 1281px) {
+    .logowid{
+    
+    width: 20%;
+    }
+    
+    .customLogow{
+    
+    max-width:69% !important;
+    height:auto  !important;
+    }
+    
+    
+    .classrowpaddincustom{
+    
+    padding: 0px 4% !important;
+    }
+    /* CSS */
+    
+    }
+    /*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+    */
+    @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .classrowpaddincustom{
+    
+    padding: 0px 4% !important;
+    }
+    .logowid{
+    
+    width: 20%;
+    }
+    
+    .customLogow{
+    
+    max-width:60% !important;
+    height:auto  !important;
+    }
+    /* CSS */
+    
+    }
+    /*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+    */
+    @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .logowid{
+    
+    width: 20%;
+    }
+    
+    .customLogow{
+    
+    max-width:69% !important;
+    height:auto  !important;
+    }
+    /* CSS */
+    
+    }
+    /*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+    */
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .customLogow{
+    
+    max-width:20% !important;
+    height:auto  !important;
+    }
+    /* CSS */
+    
+    }
+    /*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+    */
+    @media (min-width: 481px) and (max-width: 767px) {
+    .customLogow{
+    
+    max-width:25% !important;
+    height:auto  !important;
+    }
+    /* CSS */
+    
+    }
+    /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+    */
+    @media (min-width: 320px) and (max-width: 480px) {
+    
+    .customLogow{
+    
+    max-width:25% !important;
+    height:auto  !important;
+    }
+    
+    }
+    .icon {
+    cursor: pointer;
+    
+    }
+    .icon span {
+    background: #f00;
+    padding: 7px;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -25px
+    }
+    .icon img {
+    display: inline-block;
+    width: 26px;
+    margin-top: 4px
+    }
+    .icon:hover {
+    opacity: .7
+    }
+    .logo {
+    flex: 1;
+    margin-left: 50px;
+    color: #eee;
+    font-size: 20px;
+    font-family: monospace
+    }
+    .notifications {
+    width: 300px;
+    height: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 87px;
+    right: 4px;
+    border-radius: 5px 0px 5px 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+    .notifications h2 {
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #999
+    }
+    .notifications h2 span {
+    color: #f00
+    }
+    .notifications-item {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 6px 9px;
+    margin-bottom: 0px;
+    cursor: pointer
+    }
+    .notifications-item:hover {
+    background-color: #eee
+    }
+    .notifications-item img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 9px;
+    border-radius: 50%;
+    margin-top: 2px
+    }
+    .notifications-item .text h4 {
+    color: #777;
+    font-size: 16px;
+    margin-top: 3px
+    }
+    .notifications-item .text p {
+    color: #aaa;
+    font-size: 12px
+    }
+    </style>
+
+.text {
+        color: white;
+        text-align: center
+        }
+        .folded-corner:hover .text {
+        visibility: visible;
+        color: white;
+        }
+        .Services-tab {
+        margin-top: 10px
+        }
+        .folded-corner {
+        padding: 60px 30px;
+        position: relative;
+        font-size: 100%;
+        text-decoration: none;
+        color: #999;
+        height: 428px;
+        background: transparent;
+        transition: all ease .5s;
+        border: 1px solid #BC873C;
+        }
+        .folded-corner:hover {
+        background-color: #BC873C;
+        }
+        .folded-corner:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-style: solid;
+        border-width: 0 0px 0px 0;
+        border-color: #ddd #000;
+        transition: all ease .3s
+        }
+        .folded-corner:hover:before {
+        background-color: #D00003;
+        border-width: 0 50px 50px 0;
+        border-color: #eee #000
+        }
+        .service_tab_1 {
+        background-color: #000
+        }
+        .service_tab_1:hover .fa-icon-image {
+        color: white;
+        transform: scale(1.5)
+        }
+        .fa-icon-image {
+        color: white;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1;
+        font-size-adjust: none;
+        font-stretch: normal;
+        -moz-font-feature-settings: normal;
+        -moz-font-language-override: normal;
+        text-rendering: auto;
+        transition: all .65s linear 0s;
+        text-align: center;
+        transition: all 1s cubic-bezier(.99, .82, .11, 1.41)
+        }
+         #alert_popover
+  {
+   display:block;
+   position:absolute;
+   bottom:50px;
+   left:50px;
+  }
+  .wrapper {
+    display: table-cell;
+    vertical-align: bottom;
+    height: auto;
+    width:200px;
+  }
+  .alert_default
+  {
+   color: #333333;
+   background-color: #f2f2f2;
+   border-color: #cccccc;
+  }
+        .carousel-wrap {
+        margin: 90px auto;
+        padding: 0 5%;
+        width: 80%;
+        position: relative;
+        }
+        /* fix blank or flashing items on carousel */
+        .owl-carousel .item {
+        position: relative;
+        z-index: 100;
+        -webkit-backface-visibility: hidden;
+        }
+        /* end fix */
+        .owl-nav > div {
+        margin-top: -26px;
+        position: absolute;
+        top: 50%;
+        color: #cdcbcd;
+        }
+        .owl-nav i {
+        font-size: 52px;
+        }
+        .owl-nav .owl-prev {
+        left: -30px;
+        }
+        .owl-nav .owl-next {
+        right: -30px;
+        }
+        .owl-nav.disabled{
+        display:block !important;
+        }
+        
+         *{
+        margin: 0;
+        padding: 0;
+        }
+        .rate {
+        float: right;
+        height: 46px;
+        padding: 0 10px;
+        }
+        .rate:not(:checked) > input {
+        position:absolute;
+        /*top:-9999px;*/
+        display: none;
+        }
+        .rate:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:#ffc107;
+        }
+        .rate:not(:checked) > label:before {
+        content: '★ ';
+        }
+        
+        </style>
